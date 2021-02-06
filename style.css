@@ -1,0 +1,634 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border:box;
+}
+
+
+/*-----------------------------------------HEADER-----------------------------------------*/
+.logo p{
+	font-size: 35px;
+	color:white;
+	font-weight: bold;
+	padding-left: 66px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top:8px;
+}
+.myheader{
+	width: 100%;
+	height:140px;
+	background-color: #133f57;
+	opacity: .7;
+	position: absolute;
+	position: fixed;
+	z-index: 100;
+	padding-top: 32px;
+}
+.navv{
+padding-top: 22px;
+padding-left:91px;
+}
+nav{
+    display:table;
+    margin-top:-32px;
+    position:absolute;
+    box-sizing:border-box;
+}
+	   
+nav ul{
+    list-style:none;
+    padding:0;
+}
+nav ul li{
+    display:inline-block;
+    margin:0 5px;
+    padding:0;
+}
+nav ul li a{
+    display:block;
+    margin-top:25px;
+    padding:10px 20px;
+	font-size:18px;
+    text-decoration:none;
+    text-transform:uppercase;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	transition: .3s;
+}
+nav ul li a:hover{
+	background: orange;
+}
+nav ul li .active{
+	background: orange;
+}
+.video{
+
+	padding-left:1000px;
+	padding-top: 16px;
+	color: white;
+	font-size: 18px;
+}
+.video p{
+border: 3px solid white;
+padding:5px 7px;
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+transition: .3s;
+}
+
+
+.video p:hover{
+	background: orange;
+	border:3px solid orange;
+	cursor:pointer;
+}
+.book-now{
+    padding-left:25px;
+	padding-top: 16px;
+	color: white;
+	font-size: 18px;
+}
+
+.book-now p{
+border: 3px solid white;
+padding:5px 7px;
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+transition: .3s;
+}
+.book-now p:hover{
+	background: orange;
+	border:3px solid orange;
+	cursor:pointer;
+}
+/*-----------------------------------------END OF HEADER-----------------------------------------*/
+
+/*-----------------------------------------BANNER-----------------------------------------*/
+.carousel-caption h3{
+	color: white;
+	font-family: 'Vollkorn', serif;
+}
+.carousel-caption h1{
+
+	color: white;
+	font-size: 88px;
+	font-weight: bold;
+    font-family: 'Vollkorn', serif;
+}
+.carousel-caption{
+	    margin-bottom: 192px;
+}
+.in{
+	width:235px;
+	height: 140px;
+
+	background: white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.out{
+	width:235px;
+	height: 140px;
+	background: white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.adult{
+	width:235px;
+	height: 140px;
+	background: white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.children{
+	width:235px;
+	height: 140px;
+	background: white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.AVA{
+	width:235px;
+	height: 140px;
+	background: black;
+	border-bottom: 2px solid black;
+}
+.date{
+	padding-top:px;
+	position: absolute;
+}
+
+/*-----------------------------------------END OF BANNER-----------------------------------------*/
+
+
+
+/*-----------------------------------------wellcome part-----------------------------------------*/
+.wellcome{
+	padding-top: 8px;
+}
+.wellcome h1{
+	font-family: 'Vollkorn', serif;
+	font-size: 60px;
+	text-align: center;
+}
+.wellcome p{
+	text-align: center;
+	color: #b16d1f;
+}
+/*.welllcome-pic img{
+	padding-left: px;
+}	
+*/
+.welll{
+background: url(wellcome.png) no-repeat center center;
+width: 100%;
+height: 494px;
+background-size:cover;
+}
+.wellcome1{
+	margin-top: 44px;
+}
+.signature{
+	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+.sinature2{
+	margin-left:25px;
+    margin-top: 60px;
+}
+.sinature2 p{
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	color: #897e7e;
+	margin-left:64px;
+}
+.sinature2 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+}
+	/*-----------------------------------------end of wellcome part-----------------------------------------*/
+
+	/*----------------gallery part----------------------------*/
+.advantage{
+	width: 100%;
+    background: url(choose.png) no-repeat center center fixed;
+    background-size:cover;
+    height:1046px;
+    margin-top: 88px;
+}
+.ll{
+	padding-top: 25px;
+}
+.why p{
+	text-align: center;
+	color: #feb976;
+	margin-top: 164px;
+	font-family: 'Vollkorn', serif;
+	font-size: 22px;
+}
+.why h1{
+    text-align: center;
+	color: white;
+	margin-top: 56px;
+	font-family: 'Vollkorn', serif;
+	font-size: 60px;
+}
+.bestmain1{
+	padding-top: 88px;
+}
+.bestmain2{
+	padding-top: 250px;
+}
+.more{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 12px;
+}
+.best1{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best1{
+display: block;
+width: 150px;
+height: 45px;
+background: url(price.png) no-repeat;
+margin-top: -43px;
+}
+.best1 p{
+margin:11px 0 0 47px;
+}
+
+.best2{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best2{
+display: block;
+width: 150px;
+height: 45px;
+background: url(calender.png) no-repeat;
+margin-top: -37px;
+}
+.best2 p{
+margin:5px 0 0 43px;
+}
+
+.best3{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best3{
+display: block;
+width: 150px;
+height: 45px;
+background: url(time.png) no-repeat;
+margin-top: -43px;
+}
+.best3 p{
+margin:5px 0 0 51px;
+}
+
+.best4{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best4{
+display: block;
+width: 150px;
+height: 45px;
+background: url(wifi.png) no-repeat;
+margin-top: -43px;
+}
+.best4 p{
+margin:5px 0 0 51px;
+}
+
+.best5{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best5{
+display: block;
+width: 150px;
+height: 45px;
+background: url(meting.png) no-repeat;
+margin-top: -43px;
+}
+.best5 p{
+margin:5px 0 0 51px;
+}
+
+.best6{
+font-family: 'Vollkorn', serif;
+color: white;
+font-size: 22px;	
+}
+.best6{
+display: block;
+width: 150px;
+height: 55px;
+background: url(phone.png) no-repeat;
+margin-top: -43px;
+}
+.best6 p{
+margin:5px 0 0 51px;
+}
+/*----------------end of advantage part----------------------------*/
+
+/*----------------gallery part----------------------------*/
+
+
+.Gallery p{
+text-align: center;
+color: #ff9f41;
+margin-top: 125px;
+font-family: 'Vollkorn', serif;
+font-size: 35px;
+}
+.Gallery h1{
+text-align: center;
+margin-top: 15px;
+font-family: 'Vollkorn', serif;
+font-size: 60px;
+}
+	   .mainbox{
+	   width:100%;
+	   display:table;
+	   }
+	  .box{
+	   height:281px;
+	  overflow:hidden;
+	  float:left;
+	  margin:0;
+	  padding:3px;
+	  box-sizing:border-box;
+      }	
+.box img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+.equal{
+width: 25%;
+}
+.width50{
+  width:51%;
+}
+.h-50{
+  height:50%;
+}
+.gap{
+	margin-left: 15px;
+}
+.height{
+
+	margin-top: 15px;
+}
+.view{
+width: 212px;
+height: 65px;
+border: 3px solid orange;
+margin: 25px auto 0;
+padding: 15px;
+}
+.view p{
+font-family: 'Vollkorn', serif;
+font-size: 30px;
+font-weight: bold;
+transition: .3s;
+}
+.view:hover{
+	background: #ff9f41;
+	cursor: pointer;
+	color: white;
+}
+/*----------------end of gallery part----------------------------*/
+
+/*----------------service part----------------------------*/
+
+.extra{
+	margin-top: 150px;
+}
+.service h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.service h3{
+	font-family: 'Vollkorn', serif;
+	font-size: 26px;
+	text-align: center;
+}
+.service h2:after{
+content:'';
+display:block;
+width:88px;
+height:110px;
+background:url(service-icon.png) no-repeat;
+margin:-102px 0 0 115px;
+}
+.service p{
+	text-align: center;
+	font-size: 16px;
+	color: #897e7e;
+	margin-top: 25px;
+}
+
+
+
+
+/*----------------end of service part----------------------------*/
+
+
+/*----------------testimonial----------------------------*/
+.testi{
+background: url(client.png) no-repeat center center;
+width: 100%;
+height: 808px;
+background-size:cover;
+margin-top: 100px;
+}
+
+.testi h1{
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	font-family: 'Vollkorn', serif;
+	padding-top: 58px;
+
+}
+.testi p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+
+
+
+.believe{
+	padding-top:150px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  opacity: .7;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+.mySlides p{
+	color:black;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: orange;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+/*----------------end of testimonial part----------------------------*/
+
+/*--------------------------------------footer part--------------------*/
+.foot{
+background:#031627;
+}
+.Address:after{
+content:'';
+display:block;
+width:50px;
+height:4px;
+background:#e15a2e;
+margin:11px 0;
+}
+.Services-foot:after{
+content:'';
+display:block;
+width:50px;
+height:4px;
+background:#e15a2e;
+margin:11px 0;
+}
+.Services-foot{
+margin-left:4px;
+}
+.foot-h1-p{
+width:284px;
+margin-top:54px;
+font-size: 18px;
+}
+.logoh1{
+margin-top:18px;
+font-size: 18px;
+}
+.logo-foot{
+font-size:56px;
+color:orange;
+}
+.foot-h1-p ul{
+list-style:none;
+}
+
+.foot-h1-p ul li a{
+color:white;
+}
+
+/*--------------------------------------footer part--------------------*/
+
+
+
+.scrollup{
+position:fixed;
+bottom:25px;
+right:25px;
+display:none;
+width:45px;
+
+height:45px;
+background:url(arrow.png);
+cursor:pointer;
+}
+
+
+
+@media screen and (max-width:750px){
+.welllcome-pic{
+	margin-top: 88px;
+}
+.best2{
+	margin-top: 125px;
+}
+.best3{
+margin-top: 125px;
+}
+.best5{
+margin-top: 125px;
+}
+.best6{
+margin-top: 125px;
+}
+}
